@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unalome Beauty - Luxury Beauty Salon in Bergvliet, Cape Town. Premium Services & 4.9 Star Rating.">
+    <title>Unalome Beauty | Luxury Beauty Salon Cape Town</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cursor Follower -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">UNALOME</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <div class="logo">
+                    <span class="logo-icon">✨</span>
+                    <span class="logo-text">UNALOME</span>
+                </div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="book-now-btn">
+                <span>Book Now</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+            <div class="particles" id="particles"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up">
+                <h4 class="subtitle">Welcome to Luxury</h4>
+                <h1 class="main-title">
+                    Experience
+                    <span class="gradient-text">Premium Beauty</span>
+                    in Cape Town
+                </h1>
+                <p class="description">
+                    Elevate your beauty routine with our exclusive treatments and expert care.
+                    Where luxury meets perfection.
+                </p>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-icon">⭐</div>
+                        <div class="stat-content">
+                            <h3>4.9</h3>
+                            <p>Rating (51 Reviews)</p>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-content">
+                            <h3>500+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">💎</div>
+                        <div class="stat-content">
+                            <h3>Premium</h3>
+                            <p>Quality Service</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#services" class="primary-btn">
+                        <span>Explore Services</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="secondary-btn">
+                        <i class="fas fa-phone"></i>
+                        <span>071 362 7356</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-tilt>
+                    <div class="image-card">
+                        <div class="image-placeholder">
+                            <i class="fas fa-spa"></i>
+                            <p>Premium Salon Interior</p>
+                        </div>
+                        <div class="image-badge">
+                            <i class="fas fa-award"></i>
+                            <span>Award Winning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <h4 class="section-subtitle">About Unalome Beauty</h4>
+                    <h2 class="section-title">Your Journey to <span class="gradient-text">Radiance</span></h2>
+                    <p class="section-description">
+                        At Unalome Beauty, we believe that every individual deserves to feel confident
+                        and beautiful. Our expert team combines years of experience with the latest
+                        techniques to deliver exceptional results.
+                    </p>
+
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>LGBTQ+ Friendly Space</h4>
+                                <p>Everyone is welcome in our inclusive environment</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Premium Products</h4>
+                                <p>We use only the highest quality products</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Expert Professionals</h4>
+                                <p>Trained and certified beauty specialists</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="primary-btn">
+                        <span>Book Appointment</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h4 class="section-subtitle">Our Services</h4>
+                <h2 class="section-title">Premium Beauty <span class="gradient-text">Treatments</span></h2>
+                <p class="section-description">Indulge in our carefully curated selection of luxury services</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-tilt>
+                    <div class="service-icon-box">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>Manicure & Pedicure</h3>
+                    <p>Premium nail care with gel options, nail art, and relaxing hand/foot treatments.</p>
+                    <div class="service-price">
+                        <span class="price-label">Starting at</span>
+                        <span class="price-value">R250</span>
+                    </div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Gel Manicure</li>
+                        <li><i class="fas fa-check"></i> Nail Art Design</li>
+                        <li><i class="fas fa-check"></i> Spa Treatment</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card featured" data-tilt>
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="service-icon-box">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Facial Treatments</h3>
+                    <p>Rejuvenating facials customized for your unique skin type and concerns.</p>
+                    <div class="service-price">
+                        <span class="price-label">Starting at</span>
+                        <span class="price-value">R350</span>
+                    </div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Deep Cleansing</li>
+                        <li><i class="fas fa-check"></i> Anti-Aging</li>
+                        <li><i class="fas fa-check"></i> Hydration Boost</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-tilt>
+                    <div class="service-icon-box">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Waxing Services</h3>
+                    <p>Professional waxing in a comfortable, hygienic environment with premium products.</p>
+                    <div class="service-price">
+                        <span class="price-label">Starting at</span>
+                        <span class="price-value">R150</span>
+                    </div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Full Body Waxing</li>
+                        <li><i class="fas fa-check"></i> Brazilian Wax</li>
+                        <li><i class="fas fa-check"></i> Facial Waxing</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-tilt>
+                    <div class="service-icon-box">
+                        <i class="fas fa-hands"></i>
+                    </div>
+                    <h3>Massage Therapy</h3>
+                    <p>Relax and unwind with our therapeutic massage treatments tailored to you.</p>
+                    <div class="service-price">
+                        <span class="price-label">Starting at</span>
+                        <span class="price-value">R400</span>
+                    </div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Swedish Massage</li>
+                        <li><i class="fas fa-check"></i> Deep Tissue</li>
+                        <li><i class="fas fa-check"></i> Hot Stone</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-tilt>
+                    <div class="service-icon-box">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Lash & Brow</h3>
+                    <p>Enhance your natural beauty with expert lash extensions and brow shaping.</p>
+                    <div class="service-price">
+                        <span class="price-label">Starting at</span>
+                        <span class="price-value">R200</span>
+                    </div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Lash Extensions</li>
+                        <li><i class="fas fa-check"></i> Brow Lamination</li>
+                        <li><i class="fas fa-check"></i> Lash Lift</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-tilt>
+                    <div class="service-icon-box">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Bridal Packages</h3>
+                    <p>Complete beauty packages for your special day. Look absolutely radiant.</p>
+                    <div class="service-price">
+                        <span class="price-label">Custom</span>
+                        <span class="price-value">Pricing</span>
+                    </div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Full Package</li>
+                        <li><i class="fas fa-check"></i> Trial Session</li>
+                        <li><i class="fas fa-check"></i> On-location Service</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h4 class="section-subtitle">Our Work</h4>
+                <h2 class="section-title">Beauty <span class="gradient-text">Gallery</span></h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-tilt>
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Manicure Gallery</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-tilt>
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Facial Treatment</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-tilt>
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Lash Extensions</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-tilt>
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Bridal Makeup</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours Section -->
+    <section class="hours" id="hours">
+        <div class="container">
+            <div class="hours-grid">
+                <div class="hours-content">
+                    <h4 class="section-subtitle">Visit Us</h4>
+                    <h2 class="section-title">Opening <span class="gradient-text">Hours</span></h2>
+
+                    <div class="hours-table">
+                        <div class="hours-row">
+                            <span class="day">Monday</span>
+                            <span class="dots"></span>
+                            <span class="time closed">Closed</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="day">Tuesday</span>
+                            <span class="dots"></span>
+                            <span class="time">9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="day">Wednesday</span>
+                            <span class="dots"></span>
+                            <span class="time">9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="day">Thursday</span>
+                            <span class="dots"></span>
+                            <span class="time">9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="day">Friday</span>
+                            <span class="dots"></span>
+                            <span class="time">9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="day">Saturday</span>
+                            <span class="dots"></span>
+                            <span class="time">9:00 AM - 2:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="day">Sunday</span>
+                            <span class="dots"></span>
+                            <span class="time closed">Closed</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location-card" data-tilt>
+                    <div class="location-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Find Us</h3>
+                    <p class="address">
+                        Main Rd, Bergvliet<br>
+                        Cape Town, 7945<br>
+                        South Africa
+                    </p>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Main+Rd+Bergvliet+Cape+Town"
+                       target="_blank" class="map-btn">
+                        <i class="fas fa-directions"></i>
+                        Get Directions
+                    </a>
+                    <div class="location-features">
+                        <div class="feature">
+                            <i class="fas fa-parking"></i>
+                            <span>Free Parking</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-wheelchair"></i>
+                            <span>Accessible</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-rainbow"></i>
+                            <span>LGBTQ+ Friendly</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h4 class="section-subtitle">Get in Touch</h4>
+                <h2 class="section-title">Book Your <span class="gradient-text">Appointment</span></h2>
+                <p class="section-description">Let us help you look and feel your absolute best</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card" data-tilt>
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h4>Call Us</h4>
+                        <a href="tel:0713627356">071 362 7356</a>
+                        <p>Mon - Sat: 9AM - 6PM</p>
+                    </div>
+
+                    <div class="info-card" data-tilt>
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email Us</h4>
+                        <a href="mailto:info@unalomebeauty.co.za">info@unalomebeauty.co.za</a>
+                        <p>We reply within 24 hours</p>
+                    </div>
+
+                    <div class="info-card" data-tilt>
+                        <div class="info-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <h4>Follow Us</h4>
+                        <a href="https://instagram.com/unalomebeauty" target="_blank">@unalomebeauty</a>
+                        <p>See our latest work</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" required placeholder="071 234 5678">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" required placeholder="john@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Preferred Service</label>
+                            <select id="service">
+                                <option value="">Select a service</option>
+                                <option value="manicure">Manicure & Pedicure</option>
+                                <option value="facial">Facial Treatment</option>
+                                <option value="waxing">Waxing</option>
+                                <option value="massage">Massage</option>
+                                <option value="lash">Lash & Brow</option>
+                                <option value="bridal">Bridal Package</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" placeholder="Tell us about your preferred date and time..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>✨ UNALOME</h2>
+                    <p>Where beauty meets luxury</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Main Rd, Bergvliet, Cape Town</p>
+                    <p><i class="fas fa-phone"></i> 071 362 7356</p>
+                    <p><i class="fas fa-envelope"></i> info@unalomebeauty.co.za</p>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/unalomebeauty"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Unalome Beauty. All rights reserved.</p>
+                <p>Designed with ❤️ in Cape Town</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
